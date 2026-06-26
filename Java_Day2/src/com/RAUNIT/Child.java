@@ -1,15 +1,18 @@
 package com.RAUNIT;
 
+//singleInheritance
+
 class Parent {
-    void show() {
-        System.out.println("Parent Class");
+    void house() {
+        System.out.println("2BHK");
     }
 }
 
 public class Child extends Parent {
-
     public static void main(String[] args) {
         Child obj = new Child();
-        obj.show();
+        obj.house();
     }
 }
+
+
